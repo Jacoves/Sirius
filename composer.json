@@ -1,5 +1,5 @@
 {
-  "name": "jackson/sirius-getway",
+  "name": "jacoves/sirius-getway",
   "description": "Biblioteca simples para ajudar a integrar com a API da Sirius.",
   "type": "library",
   "authors": [
