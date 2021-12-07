@@ -4,7 +4,7 @@ Biblioteca simples para ajudar a integrar com a API da Sirius.
 
 ## Instalação
 
-Para instalar essa dependência, use o comando abaixo:
+Para instalar essa dependência use o comando abaixo:
 ```shell
 composer require jacoves/sirius-gatway
 ```
