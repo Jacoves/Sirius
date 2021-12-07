@@ -1,4 +1,4 @@
-# PHP Sirius Getway
+# PHP Sirius Gatway
 
 Biblioteca simples para ajudar a integrar com a API da Sirius.
 
