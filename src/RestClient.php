@@ -3,8 +3,6 @@
 
   namespace Sirius;
 
-  require __DIR__ . "/../vendor/autoload.php";
-
   use Curl\Curl;
 
   class RestClient extends Curl{
@@ -44,9 +42,9 @@
       return $this -> response;
     }
 
-    public function salesId($id) {
-      $this -> get(Config::getUrlApi() . "sales/$id");
-      return $this -> response;
-    }
+    // public function salesId($id) {
+    //   $this -> get(Config::getUrlApi() . "sales/$id");
+    //   return $this -> response;
+    // }
 
   }
