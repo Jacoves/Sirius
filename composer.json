@@ -1,0 +1,20 @@
+{
+  "name": "jackson/sirius-getway",
+  "description": "Biblioteca simples para ajudar a integrar com a API da Sirius.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Jackson Tavares",
+      "email": "jacksontavaresrod@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sirius\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "php-curl-class/php-curl-class": "^9.5"
+  }
+}
