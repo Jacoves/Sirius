@@ -1,6 +1,19 @@
 # PHP Sirius Gatway
 
-Biblioteca simples para ajudar a integrar com a API da Sirius.
+Esse repositório consome a API da Sirius. A documentação você encontra aqui https://documenter.getpostman.com/view/15800813/Tzz7PdVU
+
+## Requisitos
+
+* PHP >= 7.0
+
+## Dependências
+
+  Esta biblioteca requer as seguintes extensões para funcionamento correto:
+
+  - [`php-curl-class`](https://github.com/php-curl-class/php-curl-class)
+
+  Se você usa o Composer, essas dependencias são gerenciadas automaticamente. Caso teha feito a instalação manual, você precisa ter certeza que estas extensões estão instaladas e disponíveis.
+
 
 ## Instalação
 
