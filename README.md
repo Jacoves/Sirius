@@ -25,6 +25,7 @@ composer require jacoves/sirius-gatway
 
 Para obter as últimas transações realizadas, use:
 
+
 ```php
 <?php
   
@@ -40,7 +41,9 @@ Para obter as últimas transações realizadas, use:
   echo "</pre>";
 ```
 
+
 Para simular uma compra você pode utilizar o exemplo abaixo:
+
 
 ```php
 <?php
