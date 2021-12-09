@@ -85,9 +85,11 @@ Para simular uma compra você pode utilizar o exemplo abaixo:
   $payment -> attempt_reference = "api-6q510ZOjpX3E9D4-roegNjNOoRzgKwj";
   $payment -> save();
 
+  echo "<pre>";
   print_r([
     'status' => $payment -> status,
     'response' => $payment -> response
   ]);
+  echo "</pre>";
 ```
 
