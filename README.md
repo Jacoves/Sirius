@@ -2,6 +2,10 @@
 
 Biblioteca simples para ajudar a integrar com a API da Sirius.
 
+## Requisitos
+
+* PHP >= 7.0 
+
 ## Instalação
 
 Para instalar essa dependência use o comando abaixo:

@@ -3,7 +3,6 @@
 
   namespace Sirius;
 
-  use Curl\Curl;
 
   class Payment {
 
@@ -154,6 +153,12 @@
       }
 
       $response = $this -> restClient -> payments($data);
+
+      if(gettype($response) == 'array' && isset($response['error'])) {
+        print_r($response);
+        exit();
+      }
+
       $this -> status = $response -> status;
       $this -> response = $response -> response;
     }

@@ -5,7 +5,7 @@
   class Config {
     
       protected static $token;
-      protected static  $url_api = "https://checkout-test.cloudfox.net/api/v1/";
+      protected static $url_api = "https://checkout-test.cloudfox.net/api/v1/";
 
       public static function setToken($token) {
         self::$token = $token;

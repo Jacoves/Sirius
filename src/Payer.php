@@ -11,5 +11,6 @@
     public $telephone;
     public $email;
     public $address = array();
+
   }
 

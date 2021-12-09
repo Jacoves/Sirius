@@ -34,6 +34,15 @@
 
     public function payments($data) {
       $this -> post(Config::getUrlApi() . "payments", $data);
+      if($this -> error) {
+        return [
+          'error' => true,
+          'errorMessage' => $this -> errorMessage,
+          'errorCode' => $this -> errorCode,
+          'responseHeaders' => $this -> responseHeaders,
+          'response' => $this -> response
+        ];
+      }
       return $this -> response;
     }
 
