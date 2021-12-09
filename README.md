@@ -8,12 +8,11 @@ Esse repositório consome a API da Sirius. A documentação você encontra aqui 
 
 ## Dependências
 
-  Esta biblioteca requer as seguintes extensões para funcionamento correto:
+  Esta biblioteca requer a seguinte lib
 
   - [`php-curl-class`](https://github.com/php-curl-class/php-curl-class)
 
-  Se você usa o Composer, essas dependencias são gerenciadas automaticamente. Caso teha feito a instalação manual, você precisa ter certeza que estas extensões estão instaladas e disponíveis.
-
+  Se você usa o Composer, essas dependencias são gerenciadas automaticamente.
 
 ## Instalação
 
