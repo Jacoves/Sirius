@@ -23,7 +23,7 @@ composer require jacoves/sirius-gatway
 
 ## Utilização
 
-Para obter as últimas transações realizadas, use:
+Para obter as últimas transações realizadas use:
 
 
 ```php
