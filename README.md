@@ -1,6 +1,6 @@
 # PHP Sirius Gatway
 
-Esse repositório consome a API da Sirius. A documentação você encontra aqui https://documenter.getpostman.com/view/15800813/Tzz7PdVU
+A sirius-gateway consome a API da Sirius. A documentação você encontra aqui https://documenter.getpostman.com/view/15800813/Tzz7PdVU
 
 ## Requisitos
 
