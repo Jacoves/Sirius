@@ -14,10 +14,6 @@ Esse repositório consome a API da Sirius. A documentação você encontra aqui 
 
   Se você usa o Composer, essas dependencias são gerenciadas automaticamente.
 
-## Requisitos
-
-* PHP >= 7.0 
-
 ## Instalação
 
 Para instalar essa dependência use o comando abaixo:
