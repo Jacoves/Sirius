@@ -23,6 +23,23 @@ composer require jacoves/sirius-gatway
 
 ## Utilização
 
+Para obter as últimas transações realizadas, use:
+
+```php
+<?php
+  
+  require __DIR__.'/vendor/autoload.php';
+
+  Sirius\Config::setToken("SEU_TOKEN");
+  
+  $restClient = new Sirius\RestClient();
+  $response = $restClient -> sales();
+  
+  echo "<pre>";
+  print_r($response);
+  echo "</pre>";
+```
+
 Para simular uma compra você pode utilizar o exemplo abaixo:
 
 ```php
